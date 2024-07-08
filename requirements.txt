@@ -1,0 +1,7 @@
+aiofiles
+aiohttp
+httpx
+pymongo
+git+https://github.com/5hojib/Pyrogram.git@dev
+telegraph
+uvloop

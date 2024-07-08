@@ -1,0 +1,12 @@
+services:
+  - type: worker
+    name: aeonbot
+    region: Frankfurt
+    plan: free
+    envVars:
+      - key: UPSTREAM_REPO
+        # value: UPSTREAM_REPO
+        sync: false
+      - key: UPSTREAM_BRANCH
+        # value: UPSTREAM_BRANCH
+        sync: false
